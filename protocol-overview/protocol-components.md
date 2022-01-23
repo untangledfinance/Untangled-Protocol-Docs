@@ -22,7 +22,7 @@ A smart contract that holds individual non-fungible tokens from which Issuer iss
 
 ### Pool Tokens
 
-Each Asset supplied to the Pool is represented by a token:
+Each Asset supplied to the Pool is represented by a Non-Fungible Token (NFT):
 
 * A yield asset (such as a green project loan) is represented by LAT
 * A non-yield asset (such as a trade finance invoice) is represented by AIT

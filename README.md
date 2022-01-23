@@ -12,10 +12,3 @@ Whale Protocol is a decentralized protocol that allows for crypto borrowing agai
 
 ![Credit: Grid Arendal](<.gitbook/assets/Whale carbon and oxygen flux.jpeg>)
 
-{% content-ref url="introduction/problems.md" %}
-[problems.md](introduction/problems.md)
-{% endcontent-ref %}
-
-{% content-ref url="protocol-overview/protocol-components.md" %}
-[protocol-components.md](protocol-overview/protocol-components.md)
-{% endcontent-ref %}

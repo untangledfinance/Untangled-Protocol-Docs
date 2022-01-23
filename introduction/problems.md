@@ -1,6 +1,4 @@
-# Problems
-
-### Crypto is not green
+# Crypto is not Green
 
 Some of the major criticisms of crypto from an environmental perspective is that it consumes large amounts of electricity. Bitcoin and Ethereum (currently) are Proof-of-Work blockchains.
 

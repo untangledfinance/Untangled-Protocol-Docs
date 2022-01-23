@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-  * [Problems](introduction/problems.md)
+  * [Crypto is not Green](introduction/problems.md)
 * [Protocol Overview](protocol-overview/README.md)
   * [Smart Contract Architecture](protocol-overview/smart-contract-architecture.md)
   * [Protocol Components](protocol-overview/protocol-components.md)
