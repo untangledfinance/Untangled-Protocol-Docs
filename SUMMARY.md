@@ -16,17 +16,7 @@
 * [Direct Lending](direct-lending/README.md)
   * [Direct Origination Model](direct-lending/direct-origination-model.md)
   * [Sustainability Linked Loans](direct-lending/sustainability-linked-loans.md)
-* [Governance](governance/README.md)
-  * [PUMP](governance/pump.md)
+* [PUMP](governance/README.md)
+  * [Governance](governance/pump.md)
   * [Token Value Capture](governance/token-value-capture.md)
   * [Tokenomics](governance/tokenomics.md)
-
-## Use Cases
-
-* [For Engineers](use-cases/for-engineers.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
-
-## Extras
-
-* [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
