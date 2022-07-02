@@ -1,2 +1,0 @@
-# SOT and JOT
-
