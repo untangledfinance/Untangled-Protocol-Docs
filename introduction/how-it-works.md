@@ -4,35 +4,11 @@
 
 With Untangled, each funding pool is standardised in the way that the assets such as invoices, loans, inventories are tokenized into NFTs from which fractional interests are sold to investors. Combining that with standard legal structures, automation and advanced analytics we have the ability to massively reduce transaction costs associated with asset financing and the number of middlemen involved whilst ensuring full transparency.
 
-We manage the end to end legal and tokenization process to bridge assets between the "real world" and DeFi. We ensure full composability with the decentralized finance ecosystem on Ethereum and other blockchain
+We manage the end-to-end legal and tokenization process to bridge assets between the "real world" and DeFi. We ensure full composability with the decentralized finance ecosystem on Celo, Ethereum and and other EVM blockchains.
 
-### Guides: Jump right in
+### Protocol
 
-Follow our handy guides to get started on the basics as quickly as possible:
-
-{% content-ref url="../user-guides/participating-in-a-pool/" %}
-[participating-in-a-pool](../user-guides/participating-in-a-pool/)
-{% endcontent-ref %}
-
-{% content-ref url="../user-guides/onboarding/sign-up.md" %}
-[sign-up.md](../user-guides/onboarding/sign-up.md)
-{% endcontent-ref %}
-
-{% content-ref url="../user-guides/onboarding/" %}
-[onboarding](../user-guides/onboarding/)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
-
-### Fundamentals: Dive a little deeper
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
-
-{% content-ref url="../protocol/architecture.md" %}
-[architecture.md](../protocol/architecture.md)
-{% endcontent-ref %}
+To learn or develop on Untangled Protocol
 
 {% content-ref url="../protocol/key-components.md" %}
 [key-components.md](../protocol/key-components.md)
@@ -42,10 +18,34 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 [key-terms.md](../protocol/key-terms.md)
 {% endcontent-ref %}
 
+{% content-ref url="../protocol/architecture.md" %}
+[architecture.md](../protocol/architecture.md)
+{% endcontent-ref %}
+
+### User guides
+
+To use Untangled Protocol application - Untangled Finance
+
+{% content-ref url="../user-guides/glossary.md" %}
+[glossary.md](../user-guides/glossary.md)
+{% endcontent-ref %}
+
+{% content-ref url="../user-guides/onboarding/" %}
+[onboarding](../user-guides/onboarding/)
+{% endcontent-ref %}
+
+{% content-ref url="../user-guides/participating-in-a-pool/" %}
+[participating-in-a-pool](../user-guides/participating-in-a-pool/)
+{% endcontent-ref %}
+
 {% content-ref url="../user-guides/asset-pool/" %}
 [asset-pool](../user-guides/asset-pool/)
 {% endcontent-ref %}
 
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}
+{% content-ref url="../user-guides/nav-calculations.md" %}
+[nav-calculations.md](../user-guides/nav-calculations.md)
+{% endcontent-ref %}
+
+{% content-ref url="../user-guides/legal-structuring.md" %}
+[legal-structuring.md](../user-guides/legal-structuring.md)
+{% endcontent-ref %}

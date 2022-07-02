@@ -60,7 +60,3 @@ Since a DAO may not have a legal status, formalising off chain real-world legal 
 Understanding the tradeoffs among the properties of green/impact assets is important in reserve asset allocation strategy. Unlike crypto native assets, these real-world assets are not correlated with the rest of crypto but they are subject to different types of risks such as liquidity and credit risks. Extensive stress testing and backtesting are needed to construct an optimal basket of collateral assets backing up cStables.
 
 Onboarding assets, particularly unlisted assets to the reserve, requires strict procedures. We are therefore welcome onboarding policy discussion as in the [article 3](https://forum.celo.org/t/discussion-initial-proposal-reserve-asset-onboarding-process/3698).
-
-{% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
-{% endhint %}

@@ -1,16 +1,12 @@
 # MakerDao MIP6 on trade finance assets
 
-{% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
-{% endhint %}
-
-#### Untangled Finance DROP: Diversified Trade Finance Fund
+#### Untangled Finance: Diversified Trade Finance Fund
 
 This MIP6 Proposal will finance a special purpose vehicle (“SPV”) established by [Untangled Finance 26](https://untangled.finance/) or affiliates thereof (the “Issuer”) to acquire Trade Finance (TFA) Assets.&#x20;
 
 #### Summary <a href="#summary-2" id="summary-2"></a>
 
-* UP Series LLC is a Digital Credit Fund set up by Untangled Finance, a digital securitisation platform. We partnered with Centrifuge as our technical infrastructure provider.
+* UP Series LLC is a Digital Credit Fund set up by Untangled Finance, a digital securitisation platform.&#x20;
 * The Series will be set up to invest in Trade Finance Assets (TFA). TFA are short term, self-liquidating invoice-based financing in both domestic and cross border trade. TFA traditionally has a [very low default rate 7](https://iccwbo.org/publication/icc-trade-register-report/#1550486691378-3a223d05-6e5e).
 * TFA Series will invest in TFA from multiple asset originators. 3 originators have signed up to supply assets to the Fund. They have good underwriting records with zero default rate to date. All asset originators are subject to due diligence by Untangled and all due diligence material will be disclosed with the Maker RWF CU.
 * UP Series LLC has developed a rigorous risk management framework:
@@ -22,19 +18,17 @@ This MIP6 Proposal will finance a special purpose vehicle (“SPV”) establishe
     * Scale up real-world adoption of Dai with proven, institutionally recognised structure and methodologies
   * Senior Investors (including Maker)
     * Diversification - avoid over concentration in a single originator, geography, borrower segment and collateral type
-    * Safety - institutional-grade risk management framework consisting of 3 layers: credit insurer, junior participation and (in the case of Maker) over collateralisation of the DROP senior tranche in exchange for Dai
+    * Safety - institutional-grade risk management framework consisting of 3 layers: credit insurer, junior participation and (in the case of Maker) over collateralisation of the  senior tranche in exchange for Dai
     * Transparency: daily on-chain portfolio performance tracking
     * Premium returns over equivalent investments
 
 #### 1.Who is the interested party for this collateral application? <a href="#1who-is-the-interested-party-for-this-collateral-application-3" id="1who-is-the-interested-party-for-this-collateral-application-3"></a>
 
-The Issuer, UP Series LLC, set up by [Untangled Finance 26](https://untangled.finance/), is represented by Quan Le ([untangled 26](https://untangled.finance/), or quan.le@untangled.finance, CEO at [Untangled Finance 26](https://untangled.finance/)) and Manrui Tang (manrui.tang@untangled.finance, COO at [Untangled Finance 26](https://untangled.finance/)). The issuer will source and manage TFA assets. It will create and own non-fungible tokens (“NFTs”) representing each TFA asset in the pool. It will lock their NFT’s into the Tinlake protocol to serve as collateral. The issuer will pool its assets and offer ERC-20 tokens to investors, specifically DROP Tokens & TIN Tokens.
-
-
+The Issuer, UP Series LLC, set up by [Untangled Finance 26](https://untangled.finance/), is represented by Quan Le ([untangled 26](https://untangled.finance/), or quan.le@untangled.finance, CEO at [Untangled Finance 26](https://untangled.finance/)) and Manrui Tang (manrui.tang@untangled.finance, COO at [Untangled Finance 26](https://untangled.finance/)). The issuer will source and manage TFA assets. It will create and own non-fungible tokens (“NFTs”) representing each TFA asset in the pool. It will lock their NFT’s into the protocol to serve as collateral. The issuer will pool its assets and offer ERC-20 tokens to investors, specifically Senior Tranche Tokens & Junior Tranche Tokens.
 
 1. Provide a brief high-level overview of the project, with a focus on the applying collateral token
 
-[Untangled Finance 26](https://untangled.finance/), the Issuer/Asset Manager will originate new trade finance assets and use the Centrifuge’s [model 12](https://forum.makerdao.com/t/poll-rwa-working-group-centrifuge-model/4381) to use MCD as a liquidity provider to.
+[Untangled Finance 26](https://untangled.finance/), the Issuer/Asset Manager will originate new trade finance assets and use MCD as a liquidity provider to.
 
 2.1 Collateral/Assets
 
@@ -78,11 +72,11 @@ Asset originators will participate in the higher risk part (called Junior, the �
 
 2.4 Pool pricing
 
-The pricing of the pool (DROP fixed APR) is determined by the yield of a debt instrument with an equivalent credit rating plus a premium.
+The pricing of the pool (Senior Tranche fixed APR) is determined by the yield of a debt instrument with an equivalent credit rating plus a premium.
 
 2.5 Pool monitoring
 
-Asset originators are subject to rigorous due diligence before on-boarding (a copy of DD reports will be shared with Centrifuge and the RWF CU of Maker). Once onboarded, asset originators need to fulfil daily reporting requirements via an API connection with the Untangled Platform (UP). It is possible to relevant legal clauses to automatic notification triggers on reporting covenants such as ratios of past dues, advance rate,
+Asset originators are subject to rigorous due diligence before on-boarding (a copy of DD reports will be shared with the RWF CU of Maker). Once onboarded, asset originators need to fulfil daily reporting requirements via an API connection with the Untangled Platform (UP). It is possible to relevant legal clauses to automatic notification triggers on reporting covenants such as ratios of past dues, advance rate,
 
 #### 3. Provide a brief history of the project <a href="#3-provide-a-brief-history-of-the-project-5" id="3-provide-a-brief-history-of-the-project-5"></a>
 
@@ -118,7 +112,7 @@ Key features of the Untangled Platform (UP)
 
 UP is a one-stop shop for alternative lenders looking to raise funds and for investors to access alternative investment opportunities traditionally reserved for institutional investors. UP bridges real-world assets and DeFi.
 
-Untangled Platform is to integrate directly with Centrifuge’s smart contracts providing seamless user experience.
+Untangled Platform is to integrate directly with the protocol smart contracts providing seamless user experience.
 
 * Originator On-boarding on Asset Tokenization
 
@@ -190,7 +184,7 @@ Launched in 2016 by its experienced board (100% owners) who have financed the te
 
 #### 7. How is the applying collateral type currently used? <a href="#7-how-is-the-applying-collateral-type-currently-used-9" id="7-how-is-the-applying-collateral-type-currently-used-9"></a>
 
-The SPV will be financed by issuing DROP Tokens for 90% of the net asset value of the pool of NFTs plus cash on hand (collectively “Pool Valuation”) and TIN Tokens for 10% of the Pool Valuation.
+The SPV will be financed by issuing Senior Tranche Tokens for 90% of the net asset value of the pool of NFTs plus cash on hand (collectively “Pool Valuation”) and Junior Tranche Tokens for 10% of the Pool Valuation.
 
 The Issuer will initially seek a 10 million DAI debt ceiling from MakerDAO, increasing to a 20 million DAI over the next 6-12 months. We expect to fill up this initial 10 million dai within 6 months based on our existing pipeline with our lending partners.
 
@@ -200,33 +194,33 @@ The Issuer expects to invest in TFA assets that are typically less than 6 months
 
 Legal Setup
 
-Untangled Finance will form its own SPV (UP Series LLC) for the acquisition of TFA assets. The SPV will enter into a service agreement with Untangled Finance Limited to get support from Untangled Finance while using Centrifuge’s open and decentralized infrastructure. The SPV will tokenize the titles of each of its TFA Assets into NFTs and will add those NFTs to Tinlake as collateral. The SPV will utilize Tinlake to issue U-DROP and U-TIN backed by the pool of NFTs that are locked in Tinlake. Untangled Finance’s lending partners will retain the U-TIN tokens and will lock the U-DROP tokens into a MakerDAO Vault. Please find the documentation to the two-tranche structure [here 3](https://developer.centrifuge.io/tinlake/overview/tranches/).
+Untangled Finance will form its own SPV (UP Series LLC) for the acquisition of TFA assets. The SPV will enter into a service agreement with Untangled Finance Limited to get support from Untangled Finance while using the protocol’s open and decentralized infrastructure. The SPV will tokenize the titles of each of its TFA Assets into NFTs and will add those NFTs to the protocol as collateral. The SPV will utilize the protocol to issue Senior Tranche and Junior Tranche backed by the pool of NFTs that are locked in the protocol. Untangled Finance’s lending partners will retain the Junior Tranche tokens and will lock the Senior Tranche tokens into a MakerDAO Vault. Please find the documentation to the two-tranche structure [here 3](https://developer.centrifuge.io/tinlake/overview/tranches/).
 
-This legal setup is very commonly used in the traditional financial system: The collateral for the individual assets are assigned to a legal entity, the “special purpose vehicle” and lenders get an ownership interest in the entire portfolio of this entity (with this entity the assets are in an a bankruptcy-remote structure that is not influenced by the Asset Originators) and provides the necessary support to ensure that anyone that owns a DROP token has a legal claim to the underlying assets.
+This legal setup is very commonly used in the traditional financial system: The collateral for the individual assets are assigned to a legal entity, the “special purpose vehicle” and lenders get an ownership interest in the entire portfolio of this entity (with this entity the assets are in an a bankruptcy-remote structure that is not influenced by the Asset Originators) and provides the necessary support to ensure that anyone that owns a Senior Tranche token has a legal claim to the underlying assets.
 
 #### 9. Where does exchange for the asset occur? <a href="#9-where-does-exchange-for-the-asset-occur-11" id="9-where-does-exchange-for-the-asset-occur-11"></a>
 
-The SPV enters into a subscription agreement with lenders who receive DROP from the SPV in turn for providing DAI. The DROP token can be redeemed against the cash flows of the underlying collateral directly from the SPV by any DROP holder. This is ensured by the Tinlake smart contracts and is the primary way for interacting with these tokens.
+The SPV enters into a subscription agreement with lenders who receive Senior Tranche from the SPV in turn for providing DAI. The Senior Tranche token can be redeemed against the cash flows of the underlying collateral directly from the SPV by any Senior Tranche holder. This is ensured by  the protocol smart contracts and is the primary way for interacting with these tokens.
 
 1. (Determined by Legal Domain Team) Has your project obtained any legal opinions or memoranda regarding the regulatory standing of the token or an explanation of the same from the perspective of any jurisdiction? If so, those materials should be provided for community review.
 
-First, the issuance of DROP and TIN tokens is handled via Tinlake, with AML/KYC procedures and compliance with US securities guidelines. Investors based in the US must be accredited investors (generally defined as having a net worth of at least $1 million).
+First, the issuance of Senior Tranche and Junior Tranche tokens is handled via the protocol, with AML/KYC procedures and compliance with US securities guidelines. Investors based in the US must be accredited investors (generally defined as having a net worth of at least $1 million).
 
 The offering structure overview and legal templates can be found [here 1 5](https://docs.centrifuge.io/tinlake/further-information/offering-structure/).
 
 #### 11. (Determined by Legal Domain Team) Describe whether there are any regulatory registrations for the token and provide related documentation (including an explanation of any past or existing interactions with any regulatory authorities, regardless of jurisdiction), if applicable. <a href="#11-determined-by-legal-domain-team-describe-whether-there-are-any-regulatory-registrations-for-the-t" id="11-determined-by-legal-domain-team-describe-whether-there-are-any-regulatory-registrations-for-the-t"></a>
 
-The issuance of DROP and TIN tokens is handled via Tinlake, with AML/KYC procedures and compliance with US securities guidelines. Investors based in the US must be accredited investors (generally defined as having a net worth of at least $1 million). The SPV issues DROP tokens for the Maker vault.
+The issuance of Senior Tranche and Junior Tranche tokens is handled via the protocol, with AML/KYC procedures and compliance with US securities guidelines. Investors based in the US must be accredited investors (generally defined as having a net worth of at least $1 million). The SPV issues Senior Tranche tokens for the Maker vault.
 
 #### 12. (Optional) List any possible oracle data sources for the proposed Collateral type. <a href="#12-optional-list-any-possible-oracle-data-sources-for-the-proposed-collateral-type-13" id="12-optional-list-any-possible-oracle-data-sources-for-the-proposed-collateral-type-13"></a>
 
 The Issuer will provide daily NAV updates for each underlying TFA asset, which will be used to value the NFTs.
 
-If an updated NAV submitted by the Issuer shows a decrease in the total expected value of an underlying TFA asset, then the value of the NFT will be marked down. If, as a result of such mark down, the outstanding value of the DROP Tokens increases to more than 90% of the Pool Valuation, then Tinlake will lock the Issuer from drawing any further Dai and will lock the TIN investors from redeeming. The Issuer may restore balance and unlock Tinlake by: (1) buying additional TIN tokens so that the proceeds will increase the cash reserve in an amount necessary to cause the value of outstanding DROP Tokens to be no more than 90% of the Pool Valuation or (ii) redeem DROP Tokens in an amount necessary to restore the value of outstanding DROP Tokens to no more than 90% of the Pool Valuation.
+If an updated NAV submitted by the Issuer shows a decrease in the total expected value of an underlying TFA asset, then the value of the NFT will be marked down. If, as a result of such mark down, the outstanding value of the Senior Tranche Tokens increases to more than 90% of the Pool Valuation, then the protocol will lock the Issuer from drawing any further Dai and will lock the Junior Tranche investors from redeeming. The Issuer may restore balance and unlock the protocol by: (1) buying additional Junior Tranche tokens so that the proceeds will increase the cash reserve in an amount necessary to cause the value of outstanding Senior Tranche Tokens to be no more than 90% of the Pool Valuation or (ii) redeem Senior Tranche Tokens in an amount necessary to restore the value of outstanding Senior Tranche Tokens to no more than 90% of the Pool Valuation.
 
 #### 13. (Optional) List any parties interested in taking part in liquidations for the proposed Collateral type. <a href="#13-optional-list-any-parties-interested-in-taking-part-in-liquidations-for-the-proposed-collateral-t" id="13-optional-list-any-parties-interested-in-taking-part-in-liquidations-for-the-proposed-collateral-t"></a>
 
-Bankruptcy protection: even if the originator goes out of business, the loans are still safe as borrowers make repayment directly to the SPV’s bank account. We propose a Maker participate of up to 75% of DROPwith the remainder being provided by direct DROP investors
+Bankruptcy protection: even if the originator goes out of business, the loans are still safe as borrowers make repayment directly to the SPV’s bank account. We propose a Maker participate of up to 75% of Senior Tranche with the remainder being provided by direct Senior Tranche investors
 
 [960×540 40.3 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/5/5f3a21dc1a9cb24febe7b9990a02a4c2c8757579.png)
 
@@ -235,8 +229,8 @@ Bankruptcy protection: even if the originator goes out of business, the loans ar
 From an overall pool perspective, Maker gets four buffers of safety:
 
 * Credit insurance on most assets with payout at 90% first loss
-* 10% TIN tranches held by Asset Originators, Untangled and Centrifuge
-* DROP co-investors, who share Maker interests
-* DROP over-collateralisation i.e., 105 U-DROP for 100 DAI
+* 10% Junior tranches held by Asset Originators, Untangled and other investors
+* &#x20;co-investors, who share Maker interests
+* Senior Tranche over-collateralisation i.e., 105 Senior Tranche for 100 DAI
 
 Note: Opportunities only available to accredited and professional investors.

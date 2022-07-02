@@ -1,10 +1,8 @@
 # Creat Pool
 
-Create Pool
-
 Anyone approved by Governance can create a Asset Pool which is a smart contract instance where an Issuer can:
 
-* Blyorrow from Funders.&#x20;
+* Borrow from Funders.&#x20;
 * Purchase assets from Originators with Pool Reserve or lend to Borrowers directl
 
 The pool creator needs to specify parameters such as:&#x20;

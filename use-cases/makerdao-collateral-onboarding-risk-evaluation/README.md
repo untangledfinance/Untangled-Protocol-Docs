@@ -1,6 +1,9 @@
 # MakerDAO- Collateral Onboarding Risk Evaluation
 
 {% hint style="info" %}
+
+{% endhint %}
+
 ****
 
 [teej](https://forum.makerdao.com/u/teej)[Real World Finance Core Unit](https://forum.makerdao.com/g/Real-World-Finance)[Dec '21](https://forum.makerdao.com/t/untangled-finance-collateral-onboarding-risk-evaluation/12006?u=quntangled)
@@ -131,7 +134,9 @@ Untangled has identified four initial asset originators to serve as the pilot co
 
 _Fig. 1_
 
-[![P1](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/8/89fab9491843abf5d28a60b729d2349df6e80f44\_2\_690x103.jpeg)P11248×188 42.2 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/8/89fab9491843abf5d28a60b729d2349df6e80f44.jpeg)
+[P11248×188 42.2 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/8/89fab9491843abf5d28a60b729d2349df6e80f44.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/8/89fab9491843abf5d28a60b729d2349df6e80f44\_2\_690x103.jpeg)
 
 **A**: The first is a Singapore-based global invoice exchange. Via this exchange, companies can raise funds by selling discounted invoices to investors. This originator was founded in 2016 and has financed roughly $400MM in trade receivables. Over the 2020-2021 period, this originator secured a combined $27MM in funding from Sequoia Capital and an investment firm associated with the Singaporean government. The back-tested default rate of this originator is \~0.2% which is in line with the industry average. The primary business line is invoice finance and all exposures are credit insured.
 
@@ -188,7 +193,9 @@ Untangled’s DCF approach:
 
 _Fig. 2_
 
-[![P2](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/1/192719e9effe9b2254f9fa688096f2b098b6bb3b\_2\_690x304.jpeg)P21024×452 47.6 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/1/192719e9effe9b2254f9fa688096f2b098b6bb3b.jpeg)
+[P21024×452 47.6 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/1/192719e9effe9b2254f9fa688096f2b098b6bb3b.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/1/192719e9effe9b2254f9fa688096f2b098b6bb3b\_2\_690x304.jpeg)
 
 1. _Calculate NAV_: Add up the present values to calculate the value, at time = 0, of the entire pool of assets. See notes below for additional adjustments to NAV.
 
@@ -204,17 +211,23 @@ Trade finance assets will be tiered into six categories of risk: A-F. These risk
 
 _Fig. 3_
 
-[![P3](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/f/fbf886d9c1597e2969077ba85475b0bf63912579\_2\_690x353.jpeg)P31280×656 78.1 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/f/fbf886d9c1597e2969077ba85475b0bf63912579.jpeg)
+[P31280×656 78.1 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/f/fbf886d9c1597e2969077ba85475b0bf63912579.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/f/fbf886d9c1597e2969077ba85475b0bf63912579\_2\_690x353.jpeg)
 
 For default probabilities (PD) and loss given default (LGD), Untangled’s projections fall within industry-wide data from Scope Rating and Altradius over a (4 year) credit cycle.
 
 _Fig. 4_
 
-[![P4](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/7/752ba9e445beec3244160e2cd82f6ba36e5568ab\_2\_690x454.jpeg)P41112×732 111 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/7/752ba9e445beec3244160e2cd82f6ba36e5568ab.jpeg)
+[P41112×732 111 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/7/752ba9e445beec3244160e2cd82f6ba36e5568ab.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/7/752ba9e445beec3244160e2cd82f6ba36e5568ab\_2\_690x454.jpeg)
 
 _Fig. 5_
 
-[![P5](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/a/a7dadd56738079ac6dbbfe0f4bdf4879e729b08f\_2\_642x500.jpeg)P5972×756 55.8 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/a/a7dadd56738079ac6dbbfe0f4bdf4879e729b08f.jpeg)
+[P5972×756 55.8 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/a/a7dadd56738079ac6dbbfe0f4bdf4879e729b08f.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/a/a7dadd56738079ac6dbbfe0f4bdf4879e729b08f\_2\_642x500.jpeg)
 
 **Untangled Base Case**: a probability of default for assets that are 90 days past due of 3 - 5% and loss given default of 50% over the cycle. This maps to an expected loss of 1.5%-2.5% before the application of credit insurance or parent company performance guarantees.
 
@@ -249,7 +262,9 @@ Untangled intends for its digital credit platform to be an end-to-end on-chain f
 
 _Fig. 6_
 
-[![P6](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/2/2ae1bb24b1c28a07818d39ce346079acf9318f0e\_2\_690x327.jpeg)P61248×592 106 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/2/2ae1bb24b1c28a07818d39ce346079acf9318f0e.jpeg)
+[P61248×592 106 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/2/2ae1bb24b1c28a07818d39ce346079acf9318f0e.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/2/2ae1bb24b1c28a07818d39ce346079acf9318f0e\_2\_690x327.jpeg)
 
 The Net Asset Value of the portfolio is updated regularly and visible to MakerDAO within the Untangled platform. MakerDAO can actively monitor the credit enhancement represented by the junior obligation token. This transparency permits Maker to ensure that both asset originators and Untangled are in fact retaining first loss pieces of the capital stack.
 
@@ -285,7 +300,9 @@ This opportunity will utilize the Untangled digital credit platform to tokenize 
 
 _Fig. 7_
 
-[![P7](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/3/3b7e06672a58eaf17fb7739556a343debd337bec\_2\_690x321.jpeg)P71152×536 90 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/3/3b7e06672a58eaf17fb7739556a343debd337bec.jpeg)
+[P71152×536 90 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/3/3b7e06672a58eaf17fb7739556a343debd337bec.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/3/3b7e06672a58eaf17fb7739556a343debd337bec\_2\_690x321.jpeg)
 
 ### Implementation details <a href="#implementation-details-9" id="implementation-details-9"></a>
 
@@ -293,7 +310,9 @@ _Fig. 7_
 
 _Fig. 8_
 
-[![P8](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/1/172814aca61414dac5d8bea03c680e7ba128d73e\_2\_690x320.jpeg)P81248×580 100 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/1/172814aca61414dac5d8bea03c680e7ba128d73e.jpeg)
+[P81248×580 100 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/1/172814aca61414dac5d8bea03c680e7ba128d73e.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/1/172814aca61414dac5d8bea03c680e7ba128d73e\_2\_690x320.jpeg)
 
 The Untangled securitization and marketplace platform will be used exclusively to facilitate the onboarding and monitoring of the TFAs submitted by various Asset Originators.
 
@@ -303,7 +322,9 @@ The Untangled securitization and marketplace platform will be used exclusively t
 
 _Fig. 9_
 
-[![P9](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/a/a3ccba91d131a226b6bf1b2ef9b389f3760c9a0a\_2\_690x395.jpeg)P91236×708 90.9 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/a/a3ccba91d131a226b6bf1b2ef9b389f3760c9a0a.jpeg)
+[P91236×708 90.9 KB](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/original/2X/a/a3ccba91d131a226b6bf1b2ef9b389f3760c9a0a.jpeg)
+
+![](https://makerdao-forum-backup.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/a/a3ccba91d131a226b6bf1b2ef9b389f3760c9a0a\_2\_690x395.jpeg)
 
 The above diagram outlines the structure for implementation with Untangled. The on-chain risk retention by Untangled will be 5% of the total debt exposure in the form of JOT ownership. This retention will be visible on-chain. Asset originators will retain a minimum of 5% of the exposure at the asset SPV level—also via JOT ownership.
 
@@ -406,4 +427,3 @@ The risk team has not been provided with access to the counter-party’s financi
 * Asset Originators (one level beyond Untangled) will retain 5% of the exposure to underlying obligors at the Asset SPV level.
 * Untangled will retain at least 5% of the total debt exposure. This 5% will be raised via solely LP commitments.
 * Untangled and the underlying asset originators will realize losses and cash flows to the junior tranche on a pari passu basis. In other words, within the junior tranche, neither party is junior to the other. Losses and gains are distributed to both parties on equal footing.
-{% endhint %}

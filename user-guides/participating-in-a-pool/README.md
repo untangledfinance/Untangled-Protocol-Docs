@@ -1,15 +1,34 @@
 # Participating in a pool
 
+### Guides: Jump right in
 
+Follow our handy guides to get started on the basics as quickly as possible:
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
-## The basics
+{% content-ref url="view-a-note-deal.md" %}
+[view-a-note-deal.md](view-a-note-deal.md)
+{% endcontent-ref %}
 
-Projects are containers for task lists. Think of them as a library for everything your team needs to get done to complete or ship a project.
+{% content-ref url="view-originator-profile.md" %}
+[view-originator-profile.md](view-originator-profile.md)
+{% endcontent-ref %}
 
-## Creating a project
+{% content-ref url="subscribe-for-note.md" %}
+[subscribe-for-note.md](subscribe-for-note.md)
+{% endcontent-ref %}
 
-Hit the big '+' button in your sidebar and select 'New Project' from the menu that pops up. Give your project a name, and you're good to go!
+{% content-ref url="view-portfolio.md" %}
+[view-portfolio.md](view-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="monitor-performance.md" %}
+[monitor-performance.md](monitor-performance.md)
+{% endcontent-ref %}
+
+{% content-ref url="redeem.md" %}
+[redeem.md](redeem.md)
+{% endcontent-ref %}
+

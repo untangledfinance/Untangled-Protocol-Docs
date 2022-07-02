@@ -1,5 +1,13 @@
 # Onboarding
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+{% content-ref url="sign-up.md" %}
+[sign-up.md](sign-up.md)
+{% endcontent-ref %}
+
+{% content-ref url="link-wallet.md" %}
+[link-wallet.md](link-wallet.md)
+{% endcontent-ref %}
+
+{% content-ref url="kyc.md" %}
+[kyc.md](kyc.md)
+{% endcontent-ref %}
