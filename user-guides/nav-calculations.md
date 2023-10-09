@@ -12,12 +12,11 @@ Determining the value of illiquid assets is difficult because – by definition 
 
 **Fair value DCF**
 
-1. Derive Expected Cash flows: For every outstanding financing (tokenised amount) of an asset, the expected cash flow is calculated. The current implementation allows to calculate the Expected Repayment of simple bullet loan structures which are common in invoice financing and trade finance. The Expected Cash Flow is calculated based on (i) the expected repayment dates and (ii) the expected repayment amounts. (i) The expected repayment date is derived on contractual obligations associated with the financing, e.g. the due date of the underlying asset. This is provided through an daily API call (oracle) for each NFT minted on Untangled Platform. (ii) The expected repayment amount is projected based on the outstanding UP financing by applying the financing fee on the current debt until the repayment date.\
+1. **Derive Expected Cash flows:** For every outstanding financing (tokenised amount) of an asset, the expected cash flow is calculated. The current implementation allows to calculate the Expected Repayment of simple bullet loan structures which are common in invoice financing and trade finance. The Expected Cash Flow is calculated based on (i) the expected repayment dates and (ii) the expected repayment amounts. (i) The expected repayment date is derived on contractual obligations associated with the financing, e.g. the due date of the underlying asset. This is provided through an daily API call (oracle) for each NFT minted on Untangled Platform. (ii) The expected repayment amount is projected based on the outstanding UP financing by applying the financing fee on the current debt until the repayment date.\
 
-2. Risk-adjusted expected cash flows The expected Cash Flow is risk-adjusted for credit risk by the Expected loss. Every financing is allocated a risk class that has a Probability of Default (PD) and Loss Given Default (LGD) assigned to it. The Expected Loss is calculated as Expected loss = Expected Cash Flow \* PD \* LGD and subtracted from the expected repayment amount to adjust for credit risk. Note that PDs are often communicated per annum and may need to be adjusted to the term of the underlying asset.\
+2. **Risk-adjusted expected cash flows**: The expected Cash Flow is risk-adjusted for credit risk by the Expected loss. Every financing is allocated a risk class that has a Probability of Default (PD) and Loss Given Default (LGD) assigned to it. The Expected Loss is calculated as Expected loss = Expected Cash Flow \* PD \* LGD and subtracted from the expected repayment amount to adjust for credit risk. Note that PDs are often communicated per annum and may need to be adjusted to the term of the underlying asset.\
 
-3. Discount risk-adjusted expected cash flows The risk-adjusted expected cash-flows are discounted with an appropriate discount rate (this depends on asset class and pool) to derive the present value of a financing. The discount rate usually reflects the rate of return an investor could earn in the marketplace on an investment of comparable size, tenor and risk. Note that the discount rate is the same for every financing of a pool. The standard formula to calculate the PV of a cash flow is\
-
+3. **Discount risk-adjusted expected cash flows:** The risk-adjusted expected cash-flows are discounted with an appropriate discount rate (this depends on asset class and pool) to derive the present value of a financing. The discount rate usually reflects the rate of return an investor could earn in the marketplace on an investment of comparable size, tenor and risk. Note that the discount rate is the same for every financing of a pool. The standard formula to calculate the PV of a cash flow is
 
 $$
 PV = CF/(1+r)^t
@@ -27,7 +26,7 @@ with r = discount rate and t = period of cash flows. As we deal with intra-year 
 
 ![](<../.gitbook/assets/image (2).png>)
 
-1. Calculate NAV Adding up the present values of the risk-adjusted expected cash flows for all financings in the pool leads to the (portfolio) NAV. The NAV plus the liquidity currently in the Reserve of the Pool gives the Pool Value.​
+4. **Calculate NAV:** Adding up the present values of the risk-adjusted expected cash flows for all financings in the pool leads to the (portfolio) NAV. The NAV plus the liquidity currently in the Reserve of the Pool gives the Pool Value.​
 
 **Write-offs**
 
